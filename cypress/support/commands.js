@@ -1,3 +1,24 @@
+Cypress.Commands.add("SearchForSomething", (Something) => {
+  const TODO_ITEM_ONE = `${Something}`
+
+  let cc=Cypress.log({
+    name: "=========>",
+    consoleProps() {
+      return {
+        "==>": [TODO_ITEM_ONE],
+      }
+    },
+  })
+cy.get('#searchInput')
+    .type(`${TODO_ITEM_ONE}{enter}`,{ log: false })
+
+cy.get('#mw-search-DYM-suggestion', { log: false })
+//        cmd.set({ el: listItems }).snapshot().end()
+
+    .contains('fury rabbit')
+
+})
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
