@@ -4,6 +4,23 @@
     "start": "http-server -p 8888 -c-1"
   },
   "devDependencies": {
-    "cypress": "^10.3.0"
-  }
+    "cypress": "^10.3.1"
+  },
+  "name": "cypresstrial",
+  "version": "1.0.0",
+  "description": "Trial for cypress",
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedsaad2050/CypressTrial.git"
+  },
+  "keywords": [
+    "Ahmed"
+  ],
+  "author": "Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmedsaad2050/CypressTrial/issues"
+  },
+  "homepage": "https://github.com/Ahmedsaad2050/CypressTrial#readme"
 }
