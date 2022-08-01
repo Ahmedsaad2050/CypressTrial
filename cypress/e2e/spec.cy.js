@@ -32,7 +32,7 @@ cy.get('.results-info > :nth-child(1)', { log: false }).should("contain", '1 –
 cy.get('#mw-search-DYM-suggestion', { log: false })
     .click()
 cy.get(':nth-child(1) > .mw-search-result-heading > a').click()
-cy.get('#firstHeading').contains("Dirty Little Rabbits")
+cy.get('#firstHeading').contains("Paws of Fury")
 })//
   it("Check for the article Table Of Content TOC", ()=>{
 cy.SearchForSomething('furry rabbits').as("searchItem")
