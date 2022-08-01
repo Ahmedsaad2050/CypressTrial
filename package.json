@@ -1,6 +1,8 @@
 {
   "scripts": {
     "cypress:install": "cypress install",
+    "cypress:build": "cypress build",
+
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "start": "http-server -p 8888 -c-1"
