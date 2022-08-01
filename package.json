@@ -1,6 +1,7 @@
 {
   "scripts": {
     "cypress:install": "cypress install",
+    "cy:run:chrome": "cypress run --browser chrome",
     "cypress:build": "npm run build",
 
     "cypress:open": "cypress open",
